@@ -6,7 +6,7 @@ variable "hetzner_token" {
 # Name variable definition
 variable "app-name" {
   type    = string
-  default = "sandbox"
+  default = "production"
 }
 
 # Defining a variable source OS image for an instance
